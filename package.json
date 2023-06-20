@@ -1,0 +1,27 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "observer": "tsc observer/index.ts --outDir ./observer/build/ && node observer/build/index.js",
+    "factory": "tsc factory/index.ts --outDir ./factory/build/ && node factory/build/index.js",
+    "singleton": "tsc singleton/index.ts --outDir ./singleton/build/ && node singleton/build/index.js",
+    "strategy": "tsc strategy/index.ts --outDir ./strategy/build/ && node strategy/build/index.js",
+    "facade": "tsc facade/index.ts --outDir ./facade/build/ && node facade/build/index.js",
+    "adapter": "tsc adapter/index.ts --outDir ./adapter/build/ && node adapter/build/index.js",
+    "command": "tsc command/index.ts --outDir ./command/build/ && node command/build/index.js",
+    "decorator": "tsc decorator/index.ts --outDir ./decorator/build/ && node decorator/build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w ./**/*.{ts,js}"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
