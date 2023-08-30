@@ -1,4 +1,6 @@
-import { Remote, TurnOffCommand, TurnOnCommand } from "./interface";
+import { Remote } from "./Remote";
+import { TurnOffCommand } from "./TurnOffCommand";
+import { TurnOnCommand } from "./TurnOnCommand";
 import { Fan } from "./receiver";
 
 const fan = new Fan();

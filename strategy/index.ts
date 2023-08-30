@@ -1,4 +1,7 @@
-import { QuickSort, MergeSort, SortedList } from "./interface";
+import { MergeSort } from "./MergeSort";
+import { QuickSort } from "./QuickSort";
+import { SortedList } from "./SortedList";
+
 
 const sortedList = new SortedList();
 sortedList.add("Java Core");
