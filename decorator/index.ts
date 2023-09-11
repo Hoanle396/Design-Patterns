@@ -1,4 +1,6 @@
-import { Circle, Rectangle, RedShapeDecorator } from "./interface";
+import { Rectangle } from './Rectangle';
+import { RedShapeDecorator } from './RedShapeDecorator';
+import { Circle } from './Cricle';
 
 const circle = new Circle();
 
